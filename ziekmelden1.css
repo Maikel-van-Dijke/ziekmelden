@@ -1,0 +1,104 @@
+body{
+    background: url(curio.jpg);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#btn1 {
+    top: 500px;
+}
+
+#btn2 {
+    top: 200px;
+}
+
+#btn3 {
+    top: 300px;
+}
+
+#btn4{
+    top: 400px;
+}
+
+#btn5 {
+    top: 100px;
+}
+
+div.button {
+    background-color: #231F20;
+    color: deeppink;
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 80px;
+    position: fixed;
+    left: -435px;
+    transition: .3s ease;
+}
+
+div.button:hover {
+    background-color: #02CCF1;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: 0px 5px 0px #E70088;
+}
+
+div.button:active {
+    background-color: #2c3e50;
+    transition: 0s;
+    color: #ecf0f1;
+}
+
+div.actief {
+    background-color: blue;
+    color: deeppink;
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 80px;
+    position: fixed;
+    left: -435px;
+    transition: .3s ease;
+}
+
+div.actief:hover {
+    background-color: #02CCF1;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: 0px 5px 0px #E70088;
+}
+
+h1{
+    text-align: center;
+}
+
+.datum{
+    border-radius: 10px;
+    margin-left: 40%;
+    width: 168px;
+}
+.voornaam{
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.tussenvoegsel{
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.achternaam{
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.klas{
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.verzenden{
+    border-radius: 10px;
+    margin-left: 45.5%;
+}
