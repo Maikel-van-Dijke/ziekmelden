@@ -14,7 +14,7 @@ try {
     $sql = "INSERT INTO zieken (datum,voornaam,tussenvoegsel,achternaam,klas)
     VALUES ('$datum','$voornaam', '$tussenvoegsel','$achternaam','$klas')";
     $conn->exec($sql);
-    echo "Persoon succesvol ziek gemeld";
+    echo "<script>window.close();</script>";
 }
 catch(PDOException $e)
 {
@@ -26,7 +26,13 @@ $conn = null;
 ?>
 <html>
 <head>
-    <link rel="stylesheet" href="ziekmelden1.css">
-    <title>Ziekmeldingensysteem</title>
+    <title>Ziekmeldingensytseem</title>
+    <link rel="stylesheet" href="ziekmelden5.css">
 </head>
+<body>
+
+
+
+
+</body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Ziekmeldingensysteem</title>
-    <link rel="stylesheet" href="logo5.css">
+    <link rel="stylesheet" href="logo4.css">
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 
 <a href="ziekmelden.php">
     <div id="btn2" class="actief">
-        <h1>Ziekmelden</h1>
+        <h1>Absentie</h1>
     </div>
 </a>
 
