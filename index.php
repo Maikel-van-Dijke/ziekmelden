@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Ziekmeldingensysteem</title>
-    <link rel="stylesheet" href="ziekmelden5.css">
+    <link rel="stylesheet" href="ziekmelden8.css">
 </head>
 <body>
 

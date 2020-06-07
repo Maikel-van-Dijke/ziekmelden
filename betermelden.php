@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="ziekmelden8.css">
 </head>
 <body class="invoeren">
-	<form method="post" class="toevoegen" action="inserten.php">
+	<form method="post" class="toevoegen" action="betermelden2.php">
 
         <a class="datum">Vul hier de begindatum in: </a><br/><input type="date" name="datum" class="datum"><br/><br/>
 		<a class="voornaam">Vul hier je voornaam in: <a/><br/><input type="text" name="voornaam" class="voornaam"><br/><br/>
@@ -26,8 +26,8 @@
         <input type="submit" name="verzenden" class="verzenden" title="Pagina sluit na het ziekmelden"/>
     </form>
 </body>
-<a class="overzichtBTN" href="overzicht.php"/>Klik hier voor een overzicht van alle zieken
-<a class="overzichtBTN" href="betermelden.php"/>Beter melden
+<br/>
+<a class="overzichtBTN" href="betermeldenOverzicht.php"/>Klik hier voor een overzicht van alle betere
 
 </body>
 </html>

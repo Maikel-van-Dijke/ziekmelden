@@ -11,7 +11,7 @@ try {
     $klas = $_POST['klas'];
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $sql = "INSERT INTO zieken (datum,voornaam,tussenvoegsel,achternaam,klas)
+    $sql = "INSERT INTO beter (datum,voornaam,tussenvoegsel,achternaam,klas)
     VALUES ('$datum','$voornaam', '$tussenvoegsel','$achternaam','$klas')";
     $conn->exec($sql);
     echo "<script>window.close();</script>";
